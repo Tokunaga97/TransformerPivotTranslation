@@ -145,18 +145,43 @@ outperforms English-based pivot translation across all evaluation metrics.
 </div>
 
 <div class="section">
-<h2>6. Discussion</h2>
+<h2>6. Dataset Availability and Citation</h2>
 
 <p>
-The superiority of Czech as a pivot language can be attributed to
-linguistic proximity between Polish and Czech,
-as both belong to the West Slavic language family.
+For the purpose of reproducibility and transparency,
+the processed corpus used in this study is publicly available via
+Hugging Face Datasets at the following URL:
 </p>
 
 <p>
-However, a significant number of out-of-vocabulary (OOV) tokens
-were generated in both pivot settings.
+<a href="https://huggingface.co/datasets/SHSK0118/TransformerPivotTranslation">
+https://huggingface.co/datasets/SHSK0118/TransformerPivotTranslation
+</a>
 </p>
+
+<p>
+The dataset includes the preprocessed training, validation,
+and test splits used in our experiments.
+</p>
+
+<h3>6.1 Recommended Citation</h3>
+
+<p>
+If you use this dataset or implementation in your research,
+please cite it as follows:
+</p>
+
+<div class="codeblock">
+Tokunaga, N., Ninomiya, T., & Tamura, A. (Year).
+TransformerPivotTranslation Dataset.
+Hugging Face. 
+https://huggingface.co/datasets/SHSK0118/TransformerPivotTranslation
+</div>
+
+<p>
+Please replace <em>Year</em> with the publication year.
+</p>
+
 </div>
 
 <div class="section">
@@ -171,7 +196,7 @@ were generated in both pivot settings.
 </div>
 
 <div class="section">
-<h2>8. Directory Structure</h2>
+<h2>9. Directory Structure</h2>
 
 <div class="codeblock">
 TransformerPivotTranslation
@@ -186,4 +211,6 @@ TransformerPivotTranslation
 └ corpus
   ├ JRC-Acquis
   └ split
+</div>
+
 </div>
