@@ -172,15 +172,11 @@ please cite it as follows:
 </p>
 
 <div class="codeblock">
-Tokunaga, N., Ninomiya, T., & Tamura, A. (Year).
+Tokunaga, N., Ninomiya, T., & Tamura, A. (2020).
 TransformerPivotTranslation Dataset.
 Hugging Face. 
 https://huggingface.co/datasets/SHSK0118/TransformerPivotTranslation
 </div>
-
-<p>
-Please replace <em>Year</em> with the publication year.
-</p>
 
 </div>
 
@@ -190,14 +186,12 @@ Please replace <em>Year</em> with the publication year.
 <ul>
 <li>Use of larger parallel corpora</li>
 <li>Introduction of subword segmentation methods (e.g., BPE)</li>
-<li>Comparison with direct Polish–German translation</li>
-<li>Incorporation of pre-trained multilingual models</li>
 </ul>
 </div>
 
 <div class="section">
-<h2>9. Directory Structure</h2>
-
+<h2>8. Directory Structure</h2>
+<pre>
 <div class="codeblock">
 TransformerPivotTranslation
 ├ requirements.txt
@@ -211,6 +205,7 @@ TransformerPivotTranslation
 └ corpus
   ├ JRC-Acquis
   └ split
+</pre>
 </div>
 
 </div>
