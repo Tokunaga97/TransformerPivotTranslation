@@ -1,4 +1,3 @@
-# TransformerPivotTranslation
 <h1>
 Neural Machine Translation for Polish–German  
 via Czech as a Pivot Language
